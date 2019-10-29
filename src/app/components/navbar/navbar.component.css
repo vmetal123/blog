@@ -1,0 +1,49 @@
+header {
+    background-color: transparent;
+    max-height: 64px;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+}
+
+header.navbar-inactive {
+    background-color: #000000;
+}
+
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 1em;
+    display: inline-block;
+    transition: 500ms ease;
+}
+
+nav li a:hover {
+    color: rgb(199, 86, 45);
+    font-weight: bold;
+}
+
+nav li a.selected {
+    color: rgb(199, 86, 45);
+    font-weight: bold;
+}
+
+nav li {
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    float: left;
+    line-height: 4;
+}
+
+header .brand {
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2em;
+    float: left;
+    line-height: 1.8;
+    margin-right: 2em;
+}

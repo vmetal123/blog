@@ -1,0 +1,17 @@
+<header [ngClass]="getNavbarBackground()">
+  <div class="container">
+    <div class="brand">
+      {{ titleApp }}
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a routerLink="/home" routerLinkActive="selected" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+          <a routerLink="/projects" routerLinkActive="selected" [routerLinkActiveOptions]="{ exact: true }">Projects</a>
+          <a routerLink="/contact" routerLinkActive="selected" [routerLinkActiveOptions]="{ exact: true }">Contact</a>
+          <a routerLink="/blog" routerLinkActive="selected" [routerLinkActiveOptions]="{ exact: true }">Blog</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
